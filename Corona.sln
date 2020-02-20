@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9AA7C445-9E1B-424D-9769-A0651CF277D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoronaWebApp", "CoronaWebApp\CoronaWebApp.csproj", "{85319887-3CC9-4118-B0C7-B04B4319DDE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AA7C445-9E1B-424D-9769-A0651CF277D0} = {9AA7C445-9E1B-424D-9769-A0651CF277D0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
