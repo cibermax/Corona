@@ -43,16 +43,16 @@ namespace CoronaWebApp
 
 
 
-            // Добавил чтобы упрастить авторизацию (снизить безопасность)
-            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
-            {
-                options.Password.RequiredLength = 6;
-                options.Password.RequireLowercase = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequireDigit = false;
+            //// Добавил чтобы упрастить авторизацию (снизить безопасность)
+            //services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            //{
+            //    options.Password.RequiredLength = 6;
+            //    options.Password.RequireLowercase = false;
+            //    options.Password.RequireUppercase = false;
+            //    options.Password.RequireNonAlphanumeric = false;
+            //    options.Password.RequireDigit = false;
 
-            }).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+            //}).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
 
 
